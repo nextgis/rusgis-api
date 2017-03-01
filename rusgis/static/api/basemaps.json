@@ -1,0 +1,20 @@
+[  
+   {  
+      "name":"Google maps",
+      "description":"Google maps",
+      "url":"http://8.8.8.8/{z}/{x}/{y}.png",
+      "zoom":{  
+         "min":0,
+         "max":19
+      }
+   },
+   {  
+      "name":"Google maps satellite",
+      "description":"Google maps satellite",
+      "url":"http://9.9.9.9/{z}/{x}/{y}.png",
+      "zoom":{  
+         "min":1,
+         "max":18
+      }
+   }
+]

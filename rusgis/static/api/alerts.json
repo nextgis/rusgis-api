@@ -1,0 +1,22 @@
+[  
+   {  
+      "message":"Alert!",
+      "geom":{  
+         "type":"Point",
+         "coordinates":[  
+            123.4,
+            12.3
+         ]
+      }
+   },
+   {  
+      "message":"Another alert!",
+      "geom":{  
+         "type":"Point",
+         "coordinates":[  
+            135.7,
+            96.43
+         ]
+      }
+   }
+]

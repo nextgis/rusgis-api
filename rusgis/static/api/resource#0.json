@@ -1,0 +1,14 @@
+{  
+   "resource":{  
+      "id":0,
+      "type":1,
+      "name":"Мои слои",
+      "description":null,
+      "copyright":"(c) Acme corp"
+   },
+   "child":[  
+      2,
+      6,
+      8
+   ]
+}
