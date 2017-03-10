@@ -112,3 +112,8 @@ def get_alerts(request):
              renderer='json')
 def post_tracks(request):
     return json.dumps(None)
+
+
+@view_config(route_name='userinfo', request_method='GET')
+def get_alerts(request):
+    return FileResponse(path('userinfo.json'))

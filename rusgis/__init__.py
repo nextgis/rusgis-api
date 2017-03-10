@@ -22,6 +22,7 @@ def main(global_config, **settings):
     config.add_route('geocoder', '/api/v1/geocoder')
     config.add_route('alerts', '/api/v1/alerts')
     config.add_route('tracks', '/api/v1/tracks')
+    config.add_route('userinfo', '/api/v1/userinfo')
 
     config.scan()
     return config.make_wsgi_app()
