@@ -28,7 +28,8 @@
          {  
             "name":"STRING_FIELD",
             "alias":"Текствое поле",
-            "datatype":"STRING"
+            "datatype":"STRING",
+            "nameField":true
          }
       ]
    },

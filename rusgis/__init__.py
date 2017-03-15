@@ -11,7 +11,9 @@ def main(global_config, **settings):
     config.add_route('login', '/login')
 
     config.add_route('api.version', '/api')
+    config.add_route('resource.forbidden', '/api/v1/resources/12')
     config.add_route('resource.item', '/api/v1/resources/{id}')
+    config.add_route('resource.collection', '/api/v1/resources')
     config.add_route('resource.diff', '/api/v1/resources/{id}/diff')
     config.add_route('feature.item', '/api/v1/resources/{id}/features/{fid}')
     config.add_route('feature.collection', '/api/v1/resources/{id}/features')

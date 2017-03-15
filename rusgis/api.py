@@ -3,6 +3,7 @@ import json
 
 from pyramid.view import view_config
 from pyramid.response import FileResponse
+from pyramid.httpexceptions import HTTPForbidden
 
 
 def path(fname):
@@ -14,10 +15,24 @@ def version(request):
     return FileResponse(path('version.json'))
 
 
+@view_config(route_name='resource.forbidden', request_method='GET')
+def forbidden(request):
+    response = HTTPForbidden()
+    response.content_type = 'application/json'
+    with open(path('forbidden.json')) as msg:
+        response.text = msg.read()
+    return response
+
+
 @view_config(route_name='resource.item', request_method='GET')
 def get_resource(request):
     id = request.matchdict['id']
     return FileResponse(path('resource#%s.json' % (id,)))
+
+
+@view_config(route_name='resource.collection', request_method='GET')
+def get_resources(request):
+    return FileResponse(path('resources.json'))
 
 
 @view_config(route_name='resource.diff', request_method='GET')
