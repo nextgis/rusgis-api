@@ -1,26 +1,26 @@
-[  
-   {  
+[
+   {
       "id":1,
-      "geom":{  
+      "geom":{
          "type":"Point",
-         "coordinates":[  
+         "coordinates":[
             125.6,
             10.1
          ]
       },
-      "fields":{  
+      "fields":{
          "date":1000,
          "square":35.49996952
       },
-      "attachments":[  
-         {  
+      "attachments":[
+         {
             "id":1,
             "name":"test_picture.png",
             "size":366920,
             "mime_type":"image/png",
             "description":"test image"
          },
-         {  
+         {
             "id":2,
             "name":"test_document.doc",
             "size":386687,
@@ -29,16 +29,16 @@
          }
       ]
    },
-   {  
+   {
       "id":2,
-      "geom":{  
+      "geom":{
          "type":"Point",
-         "coordinates":[  
+         "coordinates":[
             123.4,
             12.3
          ]
       },
-      "fields":{  
+      "fields":{
          "date":1000,
          "square":33.96015131
       },

@@ -1,43 +1,49 @@
-{  
-   "resource":{  
-      "id":0,
-      "type":1,
-      "name":"Мои слои",
-      "description":null,
-      "copyright":"(c) Acme corp",
-      "child":[  
-         {  
-            "resource":{  
-               "id":2,
-               "type":2,
-               "codeName":"vector",
-               "name":"Векторный слой",
-               "description":null,
-               "copyright":"(c) Acme corp"
+[
+   {
+      "resource":{
+         "codeName":"test",
+         "type":0,
+         "name":"Тестовый комплекс",
+         "description":null,
+         "child":[
+            {
+               "resource":{
+                  "codeName":"test:vector",
+                  "type":2,
+                  "name":"Векторный слой",
+                  "description":null,
+                  "copyright":"(c) Acme corp"
+               }
+            },
+            {
+               "resource":{
+                  "codeName":"test:rastr",
+                  "type":3,
+                  "name":"Растровый слой",
+                  "description":null,
+                  "copyright":"(c) Acme corp"
+               }
+            },
+            {
+               "resource":{
+                  "type":1,
+                  "name":"Дочерняя папка",
+                  "description":null,
+                  "copyright":"(c) Acme corp",
+                  "child":[
+                     {
+                        "resource":{
+                           "codeName":"test:vector2",
+                           "type":2,
+                           "name":"Векторный слой 2",
+                           "description":null,
+                           "copyright":"(c) Acme corp"
+                        }
+                     }
+                  ]
+               }
             }
-         },
-         {  
-            "resource":{  
-               "id":6,
-               "codeName":"rastr",
-               "type":3,
-               "name":"Растровый слой",
-               "description":null,
-               "copyright":"(c) Acme corp"
-            }
-         },
-         {  
-            "resource":{  
-               "id":8,
-               "type":1,
-               "name":"Дочерняя папка",
-               "description":null,
-               "copyright":"(c) Acme corp",
-               "child":[  
-
-               ]
-            }
-         }
-      ]
+         ]
+      }
    }
-}
+]

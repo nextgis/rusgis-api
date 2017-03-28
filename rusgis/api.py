@@ -26,8 +26,9 @@ def forbidden(request):
 
 @view_config(route_name='resource.item', request_method='GET')
 def get_resource(request):
-    id = request.matchdict['id']
-    return FileResponse(path('resource#%s.json' % (id,)))
+    comp = request.matchdict['comp']
+    layer = request.matchdict['layer']
+    return FileResponse(path('resource#%s:%s.json' % (comp, layer)))
 
 
 @view_config(route_name='resource.collection', request_method='GET')
@@ -130,5 +131,5 @@ def post_tracks(request):
 
 
 @view_config(route_name='userinfo', request_method='GET')
-def get_alerts(request):
+def get_userinfo(request):
     return FileResponse(path('userinfo.json'))

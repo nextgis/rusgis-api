@@ -1,14 +1,13 @@
-{  
-   "resource":{  
-      "id":6,
+{
+   "resource":{
       "type":3,
       "display_name":"Растровый слой",
       "description":null,
       "copyright":"(c) Acme corp"
    },
-   "raster_layer":{  
+   "raster_layer":{
       "srs":3857,
-      "bbox":{  
+      "bbox":{
          "minx":-20037508.34,
          "miny":-20037508.34,
          "maxx":20037508.34,

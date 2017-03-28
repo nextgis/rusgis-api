@@ -1,20 +1,30 @@
-[  
-   {  
-      "name":"Google maps",
-      "description":"Google maps",
-      "url":"http://8.8.8.8/{z}/{x}/{y}.png",
-      "zoom":{  
+[
+   {
+      "name":"OpenStreetMap",
+      "description":"OpenStreetMap",
+      "url":"http://{a,b,c}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "zoom":{
          "min":0,
          "max":19
+      },
+      "default":true
+   },
+   {
+      "name":"Google maps",
+      "description":"Google maps",
+      "url":"http://www.google.ru/maps/vt?lyrs=m@189&gl=cn&x={x}&y={y}&z={z}",
+      "zoom":{
+         "min":0,
+         "max":21
       }
    },
-   {  
+   {
       "name":"Google maps satellite",
       "description":"Google maps satellite",
-      "url":"http://9.9.9.9/{z}/{x}/{y}.png",
-      "zoom":{  
+      "url":"https://mt1.google.com/vt/lyrs=s&x=%7Bx%7D&y=%7By%7D&z=%7Bz%7D",
+      "zoom":{
          "min":1,
-         "max":18
+         "max":19
       }
    }
 ]
