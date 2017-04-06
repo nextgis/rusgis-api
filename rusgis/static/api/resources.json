@@ -1,44 +1,112 @@
-[
-   {
-      "resource":{
+[  
+   {  
+      "resource":{  
          "codeName":"test",
          "type":0,
          "name":"Тестовый комплекс",
          "description":null,
-         "child":[
-            {
-               "resource":{
+         "child":[  
+            {  
+               "resource":{  
                   "codeName":"test:vector",
                   "type":2,
                   "name":"Векторный слой",
                   "description":null,
                   "copyright":"(c) Acme corp"
-               }
+               },
+               "vector_layer":{  
+                  "srs":3857,
+                  "geometry_type":"POINT",
+                  "fields":[  
+                     {  
+                        "name":"REAL_FIELD",
+                        "alias":"Поле с плавающей точкой",
+                        "datatype":"REAL"
+                     },
+                     {  
+                        "name":"INTEGER_FIELD",
+                        "alias":"Целое поле",
+                        "datatype":"INTEGER"
+                     },
+                     {  
+                        "name":"DATE_FIELD",
+                        "alias":"Поле даты",
+                        "datatype":"DATE"
+                     },
+                     {  
+                        "name":"STRING_FIELD",
+                        "alias":"Текствое поле",
+                        "datatype":"STRING",
+                        "identify":true
+                     }
+                  ]
+               },
+               "versional":true,
+               "feature_сount":100500,
+               "rastrtSupported":true
             },
-            {
-               "resource":{
+            {  
+               "resource":{  
                   "codeName":"test:rastr",
                   "type":3,
                   "name":"Растровый слой",
                   "description":null,
                   "copyright":"(c) Acme corp"
+               },
+               "raster_layer":{  
+                  "srs":3857,
+                  "bbox":{  
+                     "minx":-20037508.34,
+                     "miny":-20037508.34,
+                     "maxx":20037508.34,
+                     "maxy":20037508.34
+                  }
                }
             },
-            {
-               "resource":{
+            {  
+               "resource":{  
                   "type":1,
                   "name":"Дочерняя папка",
                   "description":null,
                   "copyright":"(c) Acme corp",
-                  "child":[
-                     {
-                        "resource":{
+                  "child":[  
+                     {  
+                        "resource":{  
                            "codeName":"test:vector2",
                            "type":2,
                            "name":"Векторный слой 2",
                            "description":null,
                            "copyright":"(c) Acme corp"
-                        }
+                        },
+                        "vector_layer":{  
+                           "srs":4326,
+                           "geometry_type":"LINESTRING",
+                           "fields":[  
+                              {  
+                                 "name":"REAL_FIELD",
+                                 "alias":"Поле с плавающей точкой",
+                                 "datatype":"REAL"
+                              },
+                              {  
+                                 "name":"INTEGER_FIELD",
+                                 "alias":"Целое поле",
+                                 "datatype":"INTEGER"
+                              },
+                              {  
+                                 "name":"DATE_FIELD",
+                                 "alias":"Поле даты",
+                                 "datatype":"DATE"
+                              },
+                              {  
+                                 "name":"STRING_FIELD",
+                                 "alias":"Текствое поле",
+                                 "datatype":"STRING",
+                                 "identify":true
+                              }
+                           ]
+                        },
+                        "versional":false,
+                        "feature_сount":100500
                      }
                   ]
                }
