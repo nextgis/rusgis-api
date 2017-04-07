@@ -1,0 +1,5 @@
+{  
+   "url":"https://kcdev.rusgis.com:444/auth",
+   "realm":"dev",
+   "clientId":"rusgis"
+}

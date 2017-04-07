@@ -133,3 +133,8 @@ def post_tracks(request):
 @view_config(route_name='userinfo', request_method='GET')
 def get_userinfo(request):
     return FileResponse(path('userinfo.json'))
+
+
+@view_config(route_name='keycloak', request_method='GET')
+def get_keycloak(request):
+    return FileResponse(path('keycloak.json'))

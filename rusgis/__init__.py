@@ -24,6 +24,7 @@ def main(global_config, **settings):
     config.add_route('resource.diff', '/api/v1/resources/{comp}/{layer}/diff') #20
     config.add_route('tracks', '/api/v1/tracks') #21
     config.add_route('userinfo', '/api/v1/userinfo') #22
+    config.add_route('keycloak', '/api/v1/keycloak') #26
 
     config.scan()
     return config.make_wsgi_app()
