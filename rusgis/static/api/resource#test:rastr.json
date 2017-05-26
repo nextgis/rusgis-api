@@ -1,12 +1,10 @@
 {  
-   "resource":{  
-      "type":3,
-      "codeName":"test:rastr",
-      "name":"Растровый слой",
-      "description":null,
-      "copyright":"(c) Acme corp"
-   },
-   "raster_layer":{  
+   "codeName":"test:rastr",
+   "type":3,
+   "name":"Растровый слой",
+   "description":null,
+   "copyright":"(c) Acme corp",
+   "layer":{  
       "srs":3857,
       "bbox":{  
          "minx":-20037508.34,

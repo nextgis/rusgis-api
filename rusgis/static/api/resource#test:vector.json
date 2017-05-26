@@ -1,12 +1,10 @@
 {  
-   "resource":{  
-      "type":2,
-      "codeName":"test:vector",
-      "name":"Векторный слой",
-      "description":null,
-      "copyright":"(c) Acme corp"
-   },
-   "vector_layer":{  
+   "codeName":"test:vector",
+   "type":2,
+   "name":"Векторный слой",
+   "description":null,
+   "copyright":"(c) Acme corp",
+   "layer":{  
       "srs":3857,
       "geometry_type":"POINT",
       "fields":[  
@@ -31,9 +29,9 @@
             "datatype":"STRING",
             "identify":true
          }
-      ]
-   },
-   "versional":true,
-   "feature_сount":100500,
-   "rastrtSupported":true
+      ],
+      "versional":true,
+      "feature_сount":100500,
+      "rastrtSupported":true
+   }
 }
