@@ -28,7 +28,7 @@
                   {  
                      "name":"DATE_FIELD",
                      "alias":"Поле даты",
-                     "datatype":"DATE"
+                     "dataType":"DATE"
                   },
                   {  
                      "name":"STRING_FIELD",
@@ -82,12 +82,12 @@
                         {  
                            "name":"INTEGER_FIELD",
                            "alias":"Целое поле",
-                           "datatype":"INTEGER"
+                           "dataType":"INTEGER"
                         },
                         {  
                            "name":"DATE_FIELD",
                            "alias":"Поле даты",
-                           "datatype":"DATE"
+                           "dataType":"DATE"
                         },
                         {  
                            "name":"STRING_FIELD",
