@@ -5,7 +5,7 @@
    "changed":[  
       {  
          "id":1,
-         "geom":{  
+         "geometry":{  
             "type":"Point",
             "coordinates":[  
                125.6,
@@ -22,7 +22,7 @@
    "added":[  
       {  
          "id":2,
-         "geom":{  
+         "geometry":{  
             "type":"Point",
             "coordinates":[  
                123.4,

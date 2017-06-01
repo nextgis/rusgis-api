@@ -1,7 +1,7 @@
 [  
    {  
       "message":"Alert!",
-      "geom":{  
+      "geometry":{  
          "type":"Point",
          "coordinates":[  
             123.4,
@@ -11,7 +11,7 @@
    },
    {  
       "message":"Another alert!",
-      "geom":{  
+      "geometry":{  
          "type":"Point",
          "coordinates":[  
             135.7,

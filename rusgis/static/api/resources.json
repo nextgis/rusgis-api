@@ -18,12 +18,12 @@
                   {  
                      "name":"REAL_FIELD",
                      "alias":"Поле с плавающей точкой",
-                     "datatype":"REAL"
+                     "dataType":"REAL"
                   },
                   {  
                      "name":"INTEGER_FIELD",
                      "alias":"Целое поле",
-                     "datatype":"INTEGER"
+                     "dataType":"INTEGER"
                   },
                   {  
                      "name":"DATE_FIELD",
@@ -33,13 +33,13 @@
                   {  
                      "name":"STRING_FIELD",
                      "alias":"Текствое поле",
-                     "datatype":"STRING",
+                     "dataType":"STRING",
                      "identify":true
                   }
                ],
                "versional":true,
-               "feature_сount":100500,
-               "rastrtSupported":true
+               "feature_count":100500,
+               "rastrSupported":true
             }
          },
          {  
@@ -77,7 +77,7 @@
                         {  
                            "name":"REAL_FIELD",
                            "alias":"Поле с плавающей точкой",
-                           "datatype":"REAL"
+                           "dataType":"REAL"
                         },
                         {  
                            "name":"INTEGER_FIELD",
@@ -92,12 +92,12 @@
                         {  
                            "name":"STRING_FIELD",
                            "alias":"Текствое поле",
-                           "datatype":"STRING",
+                           "dataType":"STRING",
                            "identify":true
                         }
                      ],
                      "versional":false,
-                     "feature_сount":100500
+                     "feature_count":100500
                   }
                }
             ]
